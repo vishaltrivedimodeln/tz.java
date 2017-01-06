@@ -1,0 +1,22 @@
+import java.util.TimeZone;
+
+
+
+public class tz {
+
+    public static void main(String[] args) {
+
+        String[] timezones = TimeZone.getAvailableIDs();
+
+        for (String id : timezones) {
+
+               System.out.println(id);
+
+        }
+
+    }
+
+}
+
+
+
